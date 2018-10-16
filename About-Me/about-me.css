@@ -1,0 +1,173 @@
+/*Whole doc*/
+body{
+	padding: 0 1% 0 1%;
+	margin: 0;
+	background-color: #e0dedb;
+}
+
+/*Navigation bar*/
+nav{
+	font-family: "Kathen";
+	font-size: 24px;
+	margin-top: 5px;
+	list-style: none;
+	text-align: right;
+	text-transform: uppercase;
+	background-color: #e0dedb;
+}
+
+#current-page{
+	color: #756d61;
+	font-size: 23px;
+}
+
+.other-page a{
+	color: #ce8e1e;
+}
+
+.other-page:hover{
+	text-decoration: underline;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+	margin-top: 0;
+	padding: 5px;
+	border-radius: 90px;
+	margin-bottom: 10px;
+}
+
+/*Top bar w/ background image*/
+h1{
+	font-family: "Kathen";
+	font-weight: bold;
+	font-size: 110px;
+	line-height: 5px;
+	text-decoration: none;
+}
+
+#top{
+	background-color: #b4795e;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/*image*/
+#background{
+	width: 96%;
+	text-align: center;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	opacity: 0.95;
+}
+
+#name{
+	left: 15%;
+	top: 30%;
+	position: absolute;
+	color: #262225;
+}
+
+#lissa{
+	opacity: 0;
+}
+
+#melissa{
+	padding-left: 50px;
+}
+
+#melissa, #lissa{
+	display: inline-block;	
+	/*text-align: right;*/
+}
+
+a{
+	text-decoration: none;
+	color: #262225;
+}
+
+a:hover #lissa{
+	text-decoration: none;
+	opacity: 1;
+	color: #f28424;
+}
+
+a:hover #melissa{
+	color: #f28424;
+}
+
+
+a:visited{
+	text-decoration: none;
+}
+
+
+/*About me paragraph*/
+#description{
+	padding-top: 0;
+	margin-top: 0;
+	height: 570px;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: white;
+}
+
+#second-section{
+	height: 50%;
+	margin: 4%;
+	padding: 3%;
+	background-color: white;
+	font-family: "Neuton";
+	font-size: 24px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+#bio{
+	font-family: "Kathen";
+	padding-right: 3px;
+}
+
+ul{
+	padding-left: 15%;
+}
+
+.facts{
+	font-family: "Kathen";
+	color: #434447;
+}
+
+/*Contact me info*/
+#icons{
+	padding-left: 20%;
+	display: inline-block;
+	background-color: #e0dedb;
+	padding-bottom: 0;
+}
+
+.username{
+	vertical-align: top;
+	display: inline-block;
+	font-family: "Kathen";
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 25px;
+	color: #ce8e1e;
+}
+
+.username, .logo{
+	display: inline-block;
+}
+
+.logo{
+	height: 30px;
+	width: 3.5%;
+	padding-right: 5px;
+	padding-top: 25px;
+	display: inline-block;
+}

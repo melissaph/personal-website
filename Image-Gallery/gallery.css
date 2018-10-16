@@ -1,0 +1,109 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*Navigation bar*/
+
+nav{
+	font-family: "Kathen";
+	font-size: 24px;
+	list-style: none;
+	text-transform: uppercase;
+	background-color: #e0dedb;
+	text-align: center;
+}
+
+nav li{
+	padding: 5px;
+}
+
+#home{
+	text-align: right;
+}
+
+.current-page{
+	color: #756d61;
+}
+
+nav a{
+	color: #ce8e1e;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #ce8e1e;
+}
+
+#gallery-desc{
+	font-family: "Kathen";
+	color: #f2b90e;
+	font-size: 32px;
+	padding-top: 5px;
+	padding-left: 10px;
+
+}
+
+/*Pic categories*/
+
+#categories{
+	height: 100px;
+	text-align: center;
+	font-family: "Kathen";
+	font-size: 50px;
+	color: black;
+	padding-top: 5px;
+}
+
+#categories a:hover{
+	text-decoration: none;
+	color: #379e0b;
+}
+
+div a:visited{
+	color: black;
+}
+
+/*Images*/
+
+.pics{
+	border-top-color: gray;
+	border-top-style: solid;
+	border-top-width: 2px;
+	height: 260px;
+	background-color: white;
+	padding: 0;
+	text-align: center;
+}
+
+img{
+	height: 240px;
+	margin: 2% 2% 2% 2%;
+}
+
+/*Gray bottom border*/
+
+.last{
+	background-color: #e0dedb;
+	height: 25px;
+}
+
+/*Mobile Settings*/
+@media all and (max-width: 576px){
+#categories{
+	font-size: 20px;
+	padding: 0;
+}
+
+nav li{
+	text-align: center;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+#gallery-desc{
+	font-size: 24px;
+	text-align: center;
+}
+
+}
