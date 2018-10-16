@@ -147,6 +147,33 @@ ul{
 }
 
 @media all and (max-width: 576px){
+p{
+	padding-left: 5%;
+}
 
+.description{
+	font-size: 18px;
+}
+
+nav li{
+	text-align: center;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.logo{
+	width: 15%;
+	padding-top: 4%;
+}
+
+.username{
+	font-size: 16px;
+	text-align: center;
+}
+
+.logo, .username{
+	display: inline-block;
+}
+}
 
 }
