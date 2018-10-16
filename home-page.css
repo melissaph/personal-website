@@ -34,8 +34,6 @@ div{
 	text-align: center;
 	font-family: Kathen;
 	padding-left: 50px;
-	text-align: left;
-	line-height: 200px;
 }
 
 
@@ -52,3 +50,23 @@ video{
 #last{
 	top: 220px;
 }
+
+@media all and (max-width: 576px){
+div{
+	font-size: 40px;
+	padding-left: 60px;
+	}
+
+#last{
+	top: 110px;
+
+}
+
+nav li{
+	text-align: center;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+
+	}
