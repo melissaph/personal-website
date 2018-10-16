@@ -31,17 +31,7 @@ nav a:hover{
 	color: #ce8e1e;
 }
 
-#gallery-desc{
-	font-family: "Kathen";
-	color: #f2b90e;
-	font-size: 32px;
-	padding-top: 5px;
-	padding-left: 10px;
-
-}
-
 /*Pic categories*/
-
 #categories{
 	height: 100px;
 	text-align: center;

@@ -32,33 +32,31 @@ nav a:hover{
 }
 
 /*Top bar w/ background image*/
-h1{
+/*h1{
 	font-family: "Kathen";
 	font-weight: bold;
 	font-size: 110px;
 	line-height: 5px;
-	text-decoration: none;
+	text-decoration: none;*/
 }
 
-#top{
-	background-color: #b4795e;
-	padding-bottom: 0;
-	margin-bottom: 0;
+.top{
+	padding: 2% 2.5% 2% 2.5%;
+	margin-bottom: 0;	
+}
+
+div img{
+	width: 85%;
+	padding: 2.5% 0 2.5% 10%;
 }
 
 /*image*/
-#background{
-	width: 96%;
-	text-align: center;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	position: relative;
-	opacity: 0.95;
-}
+/*#background{
 
-#name{
+}*/
+
+
+/*#name{
 	left: 15%;
 	top: 30%;
 	position: absolute;
@@ -74,7 +72,7 @@ h1{
 }
 
 #melissa, #lissa{
-	display: inline-block;	
+	display: inline-block;	*/
 	/*text-align: right;*/
 }
 
@@ -100,24 +98,17 @@ a:visited{
 
 
 /*About me paragraph*/
-#description{
-	padding-top: 0;
+.description{
+	padding-top: 7%;
 	margin-top: 0;
-	height: 570px;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: white;
-}
-
-#second-section{
-	height: 50%;
-	margin: 4%;
-	padding: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
 	background-color: white;
 	font-family: "Neuton";
 	font-size: 24px;
 	line-height: 30px;
 	vertical-align: middle;
+
 }
 
 #bio{
@@ -135,31 +126,22 @@ ul{
 }
 
 /*Contact me info*/
-#icons{
-	padding-left: 20%;
-	display: inline-block;
+.icons{
 	background-color: #e0dedb;
 	padding-bottom: 0;
 }
 
 .username{
-	vertical-align: top;
-	display: inline-block;
 	font-family: "Kathen";
 	font-weight: bold;
 	font-size: 24px;
-	padding-right: 25px;
 	color: #ce8e1e;
-}
+	text-align: left;
+	padding-top: 2%;
 
-.username, .logo{
-	display: inline-block;
 }
 
 .logo{
-	height: 30px;
-	width: 3.5%;
-	padding-right: 5px;
-	padding-top: 25px;
-	display: inline-block;
+	width: 45%;
+	padding-top: 10%;
 }
