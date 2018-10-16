@@ -1,0 +1,31 @@
+nav{
+	font-family: "Kathen";
+	font-size: 24px;
+	list-style: none;
+	text-transform: uppercase;
+	background-color: #e0dedb;
+	text-align: center;
+}
+
+nav li{
+	padding: 5px;
+}
+
+.current-page{
+	color: gray;
+}
+
+nav a{
+	color: #ce8e1e;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #ce8e1e;
+}
+
+div{
+	font-size: 300px;
+	text-align: center;
+	font-family: Kathen;
+}
