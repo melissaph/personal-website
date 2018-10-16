@@ -1,3 +1,8 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
 nav{
 	font-family: "Kathen";
 	font-size: 24px;
@@ -25,7 +30,20 @@ nav a:hover{
 }
 
 div{
-	font-size: 300px;
+	font-size: 170px;
 	text-align: center;
 	font-family: Kathen;
+	padding-left: 50px;
+	text-align: left;
+	line-height: 200px;
+}
+
+
+video{
+	width: 100%;
+}
+
+.name{
+	position: absolute;
+	color: white;
 }
